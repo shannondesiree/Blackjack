@@ -1,0 +1,49 @@
+#customBody {
+    text-align:center;
+    background-color:darkolivegreen;
+    padding-bottom: 0px
+}
+
+#start-screen {
+    font-weight:bolder;
+    font-size: 40pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.choice-buttons, #play-again-button {
+    background-color: darkgoldenrod;
+    font-weight: 700;
+    border: solid 2px;
+    width: 15%;
+    margin-bottom:70px;
+}
+
+#game-info {
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h5 {
+    font-family: cursive;
+}
+.card-title {
+    font-size:20pt;
+    padding:20px;
+}
+#game-start {
+    
+    margin-top:0px;
+}
+
+#player-hand-cards {
+    display: flex;
+    justify-content:center;
+    height:25%;
+}
+
+#dealer-hand-cards {
+    display: flex;
+    justify-content:center;
+    height: 25%;
+}
+
