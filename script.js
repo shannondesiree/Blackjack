@@ -2,19 +2,19 @@
 // Create deck of cards
 const deck = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K'];
 
-var aceDeck = new Array("/templates/ace_of_clubs.png", "/templates/ace_of_spades.png", "/templates/ace_of_diamonds.png", "/templates/ace_of_hearts.png");
-var twoDeck = new Array("/templates/2_of_clubs.png", "/templates/2_of_spades.png", "/templates/2_of_diamonds.png", "/templates/2_of_hearts.png");
-var threeDeck = new Array("/templates/3_of_clubs.png", "/templates/3_of_spades.png", "/templates/3_of_diamonds.png", "/templates/3_of_hearts.png");
-var fourDeck = new Array("/templates/4_of_clubs.png", "/templates/4_of_spades.png", "/templates/4_of_diamonds.png", "/templates/4_of_hearts.png");
-var fiveDeck = new Array("/templates/5_of_clubs.png", "/templates/5_of_spades.png", "/templates/5_of_diamonds.png", "/templates/5_of_hearts.png");
-var sixDeck = new Array("/templates/6_of_clubs.png", "/templates/6_of_spades.png", "/templates/6_of_diamonds.png", "/templates/6_of_hearts.png");
-var sevenDeck = new Array("/templates/7_of_clubs.png", "/templates/7_of_spades.png", "/templates/7_of_diamonds.png", "/templates/7_of_hearts.png");
-var eightDeck = new Array("/templates/8_of_clubs.png", "/templates/8_of_spades.png", "/templates/8_of_diamonds.png", "/templates/8_of_hearts.png");
-var nineDeck = new Array("/templates/9_of_clubs.png", "/templates/9_of_spades.png", "/templates/9_of_diamonds.png", "/templates/9_of_hearts.png");
-var tenDeck = new Array("/templates/10_of_clubs.png", "/templates/10_of_spades.png", "/templates/10_of_diamonds.png", "/templates/10_of_hearts.png");
-var jackDeck = new Array("/templates/jack_of_clubs2.png", "/templates/jack_of_spades2.png", "/templates/jack_of_diamonds2.png", "/templates/jack_of_hearts2.png");
-var queenDeck = new Array("/templates/queen_of_clubs2.png", "/templates/queen_of_spades2.png", "/templates/queen_of_diamonds2.png", "/templates/queen_of_hearts2.png");
-var kingDeck = new Array("/templates/king_of_clubs2.png", "/templates/king_of_spades2.png", "/templates/king_of_diamonds2.png", "/templates/king_of_hearts2.png");
+var aceDeck = new Array("./templates/ace_of_clubs.png", "./templates/ace_of_spades.png", "./templates/ace_of_diamonds.png", "./templates/ace_of_hearts.png");
+var twoDeck = new Array("./templates/2_of_clubs.png", "./templates/2_of_spades.png", "./templates/2_of_diamonds.png", "./templates/2_of_hearts.png");
+var threeDeck = new Array("./templates/3_of_clubs.png", "./templates/3_of_spades.png", "./templates/3_of_diamonds.png", "./templates/3_of_hearts.png");
+var fourDeck = new Array("./templates/4_of_clubs.png", "./templates/4_of_spades.png", "./templates/4_of_diamonds.png", "./templates/4_of_hearts.png");
+var fiveDeck = new Array("./templates/5_of_clubs.png", "./templates/5_of_spades.png", "./templates/5_of_diamonds.png", "./templates/5_of_hearts.png");
+var sixDeck = new Array("./templates/6_of_clubs.png", "./templates/6_of_spades.png", "./templates/6_of_diamonds.png", "./templates/6_of_hearts.png");
+var sevenDeck = new Array("./templates/7_of_clubs.png", "./templates/7_of_spades.png", "./templates/7_of_diamonds.png", "./templates/7_of_hearts.png");
+var eightDeck = new Array("./templates/8_of_clubs.png", "./templates/8_of_spades.png", "./templates/8_of_diamonds.png", "./templates/8_of_hearts.png");
+var nineDeck = new Array("./templates/9_of_clubs.png", "./templates/9_of_spades.png", "./templates/9_of_diamonds.png", "./templates/9_of_hearts.png");
+var tenDeck = new Array("./templates/10_of_clubs.png", "./templates/10_of_spades.png", "./templates/10_of_diamonds.png", "./templates/10_of_hearts.png");
+var jackDeck = new Array("./templates/jack_of_clubs2.png", "./templates/jack_of_spades2.png", "./templates/jack_of_diamonds2.png", "./templates/jack_of_hearts2.png");
+var queenDeck = new Array("./templates/queen_of_clubs2.png", "./templates/queen_of_spades2.png", "./templates/queen_of_diamonds2.png", "./templates/queen_of_hearts2.png");
+var kingDeck = new Array("./templates/king_of_clubs2.png", "./templates/king_of_spades2.png", "./templates/king_of_diamonds2.png", "./templates/king_of_hearts2.png");
 // Create a hand for both player and dealer
 var dealerHand = [];
 var playerHand = [];
