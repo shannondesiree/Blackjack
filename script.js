@@ -59,7 +59,7 @@ var dealerSum = addCardValues(dealerHand);
 var playInfo = document.getElementById("play-info");
 var playButtons = document.getElementById("play-buttons");
 if (dealerSum === 21) {
-    document.getElementById("declare-winner").innerHTML = "The Dealer has 21. Dealer Win!"
+    document.getElementById("declare-winner").innerHTML = "The Dealer has 21. Dealer Wins!"
         displayPlayAgainButton();
         endCardDisplay();
         hideInfo(playInfo);
@@ -77,7 +77,7 @@ dealerTotal.innerHTML = dealerStand;
 var playerTotal = addCardValues(playerHand);
 document.getElementById("player-total").innerHTML = playerTotal;
 if (playerTotal === 21) {
-    document.getElementById("declare-winner").innerHTML = "The Dealer has 21. Dealer Win!"
+    document.getElementById("declare-winner").innerHTML = "You have 21. You Win!"
         displayPlayAgainButton();
         endCardDisplay();
         hideInfo(playInfo);
