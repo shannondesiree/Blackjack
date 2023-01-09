@@ -56,6 +56,8 @@ revealCard(playerCardTwo, playerCardTwoSource);
 // Calculate dealer sum after 2 cards dealt
 var dealerSum = addCardValues(dealerHand);
 // Print Dealer as winner if total = 21
+var playInfo = document.getElementById("play-info");
+var playButtons = document.getElementById("play-buttons");
 if (dealerSum === 21) {
     document.getElementById("declare-winner").innerHTML = "The Dealer has 21. Dealer Win!"
         displayPlayAgainButton();
