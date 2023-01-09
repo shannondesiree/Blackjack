@@ -55,15 +55,35 @@ revealCard(playerCardTwo, playerCardTwoSource);
 
 // Calculate dealer sum after 2 cards dealt
 var dealerSum = addCardValues(dealerHand);
-// console.log(dealerSum);
+// Print Dealer as winner if total = 21
+if (dealerSum === 21) {
+    document.getElementById("declare-winner").innerHTML = "The Dealer has 21. Dealer Win!"
+        displayPlayAgainButton();
+        endCardDisplay();
+        hideInfo(playInfo);
+        hideInfo(playButtons);
+
+} else
 
 // The dealer will Hit if they have a total less than 17 and Stand if they have 17 or more total
 var dealerStand = dealerResponse(dealerSum);
 dealerTotal = document.getElementById("dealer-total");
 dealerTotal.innerHTML = dealerStand;
 
+
+
 var playerTotal = addCardValues(playerHand);
 document.getElementById("player-total").innerHTML = playerTotal;
+if (playerTotal === 21) {
+    document.getElementById("declare-winner").innerHTML = "The Dealer has 21. Dealer Win!"
+        displayPlayAgainButton();
+        endCardDisplay();
+        hideInfo(playInfo);
+        hideInfo(playButtons);
+
+} else {
+    return;
+}
 
 }
 
