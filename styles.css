@@ -10,6 +10,10 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#dealer-choice {
+    width:80%;
+}
+
 .choice-buttons, #play-again-button {
     background-color: darkgoldenrod;
     font-weight: 700;
