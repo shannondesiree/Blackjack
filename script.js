@@ -317,13 +317,13 @@ function addCardToHand(arr) {
         } else if (dTotal === 21) {
             document.getElementById("declare-winner").innerHTML = "The dealer has 21. Dealer Wins!";
         } else if (pTotal > dTotal && pTotal < 22) {
-            document.getElementById("declare-winner").innerHTML = "You have: " + pTotal + " .The dealer has: " + dTotal + ". You win!";
+            document.getElementById("declare-winner").innerHTML = "You have: " + pTotal + ". The dealer has: " + dTotal + ". You win!";
         } else if (pTotal > 21) {
             document.getElementById("declare-winner").innerHTML = "You have gone over 21 with " + pTotal + ". Dealer wins!";
         } else if (dTotal > pTotal && dTotal < 22) {
-            document.getElementById("declare-winner").innerHTML = "You have: " + pTotal + " .The dealer has: " + dTotal + ". Dealer wins!";
+            document.getElementById("declare-winner").innerHTML = "You have: " + pTotal + ". The dealer has: " + dTotal + ". Dealer wins!";
         } else if (pTotal < dTotal && pTotal < 22) {
-            document.getElementById("declare-winner").innerHTML = "You have: " + pTotal + " .The dealer has: " + dTotal + ". You win!";
+            document.getElementById("declare-winner").innerHTML = "You have: " + pTotal + ". The dealer has: " + dTotal + ". You win!";
         } else if (pTotal === dTotal) {
             document.getElementById("declare-winner").innerHTML = "It's a Draw!"
         }
